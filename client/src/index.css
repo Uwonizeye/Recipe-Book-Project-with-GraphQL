@@ -1,0 +1,58 @@
+body {
+  background: #eee;
+  font-family: "Comic Sans MS";
+  cursor: pointer;
+  padding: 20px;
+}
+
+#main h1{
+  color: darkred;
+  text-align: left;
+}
+
+form{
+  background:white;
+  padding: 10px;
+  position:fixed;
+  right:0;
+  bottom:0;
+  width: 300px;
+}
+
+form.field{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+form label{
+  text-align: right;
+  padding: 5px;
+}
+form button{
+  color: white;
+  font-size: 2em;
+  background-color: indianred;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: static;
+  bottom: 10px;
+  left:10px;
+}
+
+#recipe-details{
+  position:fixed;
+  top:0;
+  right:0;
+  width:45%;
+  height: 100%;
+  background:indianred;
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0,0,0,3);
+  box-sizing: border-box;
+  color:white;
+  font-style: italic;
+}
